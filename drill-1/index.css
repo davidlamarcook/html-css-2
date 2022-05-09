@@ -1,0 +1,25 @@
+nav {
+    background-color: rgb(71, 69, 69);
+    height: 125px;
+    z-index: 3;
+}
+
+#middle-box{
+    background-color: white;
+    height: 700px;
+    width: 1100px;
+    margin-left: 15%;
+}
+
+footer {
+    background-color: rgb(78, 78, 78);
+    width: 1100px;
+    margin-left: 15%;
+    height:200px;
+    color: aliceblue;
+}
+body{
+    margin:0;
+    background-color: rgb(199, 197, 197);
+
+}

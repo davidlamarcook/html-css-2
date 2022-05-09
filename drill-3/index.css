@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+header{
+    background-color: rgb(222, 220, 220);
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+#blue-square {
+    margin-left: 1vw;;
+    background-color: rgb(61, 199, 245);
+    width: 5vw;
+    height: 9vh;
+}
+
+.context{
+    /*background-color: crimson;*/
+
+    padding: 2vw 7vh;
+}
+
+.blue-rectangle{
+    background-color: rgb(61, 199, 245);
+    height: 30vh;
+}
+
+.teal-box{
+    height: 30vh;
+    background-color: rgb(149, 247, 232);
+}
+
+.dark-yellow-box{
+    height: 30vh;
+    background-color: rgb(205, 245, 126)
+}
+.yellow-box {
+    height: 30vh;
+    background-color: yellow;
+}
+
+.floating-box{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    border-radius:50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}

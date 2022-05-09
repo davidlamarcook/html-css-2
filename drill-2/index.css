@@ -1,0 +1,65 @@
+body{
+    margin:15px
+}
+
+header{
+    border: 5px solid;
+    height: 25vh;  
+    display: flex;
+    flex-direction: row;
+}
+
+#purple-box{
+    background-color: rgb(129, 3, 129);
+    width:3vw;
+    margin-right: 5vw;
+    margin-left: 1vw;
+    height:15vh;
+    margin-top: 8vh;
+}
+
+#green-box{
+    background-color: green;
+    width: 20vw;
+    height:21vh;
+
+}
+
+#blue-circle{
+    background-color: rgb(139, 217, 243);
+    margin-left: 10vh;
+    width: 10vw;
+    border-radius: 59%;
+}
+
+article{
+    border: 5px dotted;
+    margin-top: 3vh;
+    height: 27vh;
+}
+
+.yellow-box{
+    background-color: rgb(252, 236, 217);
+    height: 22vh;
+    width: 90vw;
+    margin: 2vh 4vw;
+    box-shadow: 7px 7px 2px rgb(105, 105, 105);
+}
+
+.hello-friend{
+    width: 25%;
+    height: 30vh;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 35vw;
+    box-shadow: 3px 3px 1px rgb(153, 152, 152);
+    border: solid thin rgb(153, 152, 152);
+}
+ 
+.hello-friend h1 {
+    color: rgb(3, 3, 165);
+    letter-spacing: 6px;
+}
